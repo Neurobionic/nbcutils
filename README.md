@@ -9,3 +9,5 @@ Package with utils. Developed and used in [Neurobionic](http://neurobionic.ru)
 https://realpython.com/pypi-publish-python-package/
 
 python -m build
+
+twine upload -r pypi dist/*
