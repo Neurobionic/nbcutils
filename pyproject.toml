@@ -23,8 +23,8 @@ requires-python = ">=3.9"
 dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
 
 [project.urls]
-Homepage = "https://github.com/Neurobionic/nbutils"
+Homepage = "https://github.com/Neurobionic/nbcutils"
 
 [project.scripts]
-realpython = "nbutils.__main__:main"
+realpython = "nbcutils.__main__:main"
 
